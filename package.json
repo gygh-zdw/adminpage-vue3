@@ -1,0 +1,56 @@
+{
+  "name": "adminpage-vue3",
+  "version": "1.2.0",
+  "private": false,
+  "author": "mr_zhu_dw",
+  "keywords": [
+    "vue3",
+    "element-plus",
+    "搜索页",
+    "表单页",
+    "搜索表单页",
+    "table",
+    "search",
+    "adminPage",
+    "searchPage",
+    "TablePage",
+    "searchTablePage",
+    "TableSearchPage",
+    "web"
+  ],
+  "description": "基于vue3.0 对element-plus进行高度集成，便于列表页高效开发",
+  "license": "ISC",
+  "main": "src/index.js",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.1"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0",
+    "vue-router": ">=4.0.0",
+    "element-plus": ">=2.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
